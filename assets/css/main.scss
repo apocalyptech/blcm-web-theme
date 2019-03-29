@@ -14,12 +14,11 @@ $type-size-6 : 0.6875em; // ~11px
 $type-size-7 : 0.625em;  // ~10px
 $type-size-8 : 0.600em;  // ~10px
 
-// Default font sizes are, IMO, way too huge, at least for desktop
-$small: 1600px;
-$medium: 1700px;
-$medium-wide: 1920px;
-$large: 3000px;
-$x-large: 4000px;
+// Font sizes are too damned big on this theme.  This is a sledgehammer
+// approach, but let's see if it does the trick.
+html {
+    font-size: 12pt !important;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
