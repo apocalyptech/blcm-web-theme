@@ -10,5 +10,9 @@ html {
     font-size: 12pt !important;
 }
 
+h1 {
+    color: #ca90fa;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
