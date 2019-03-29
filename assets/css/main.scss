@@ -19,6 +19,11 @@ h2 {
     color: #bf7cf7;
 }
 
+// Youtube video embed sizing
+.embed-container {
+    max-width: 700px;
+}
+
 // These are called "right" sidebar but I think it actually means left?
 $right-sidebar-width-narrow: 150px;
 $right-sidebar-width: 150px;
