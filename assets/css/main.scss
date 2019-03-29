@@ -14,21 +14,12 @@ $type-size-6 : 0.6875em; // ~11px
 $type-size-7 : 0.625em;  // ~10px
 $type-size-8 : 0.600em;  // ~10px
 
-html {
-  font-size: 12px;
-
-  @include breakpoint($medium) {
-    font-size: 14px;
-  }
-
-  @include breakpoint($large) {
-    font-size: 16px;
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 18px;
-  }
-}
+// Default font sizes are, IMO, way too huge, at least for desktop
+$small: 1920px;
+$medium: 2000px;
+$medium-wide: 2200px;
+$large: 3000px;
+$x-large: 4000px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
