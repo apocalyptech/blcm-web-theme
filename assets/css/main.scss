@@ -14,5 +14,21 @@ $type-size-6 : 0.6875em; // ~11px
 $type-size-7 : 0.625em;  // ~10px
 $type-size-8 : 0.600em;  // ~10px
 
+html {
+  font-size: 12px;
+
+  @include breakpoint($medium) {
+    font-size: 14px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px;
+  }
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
