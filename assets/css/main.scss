@@ -10,9 +10,13 @@ html {
     font-size: 12pt !important;
 }
 
-// Coloration on H1 labels, for a laugh...
+// Coloration on H* labels, for a laugh...
 h1 {
     color: #ca90fa;
+    border-bottom: 1px solid #ca90fa;
+}
+h2 {
+    color: #bf7cf7;
 }
 
 // These are called "right" sidebar but I think it actually means left?
