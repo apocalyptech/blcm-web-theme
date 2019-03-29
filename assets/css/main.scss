@@ -10,9 +10,15 @@ html {
     font-size: 12pt !important;
 }
 
+// Coloration on H1 labels, for a laugh...
 h1 {
     color: #ca90fa;
 }
+
+// These are called "right" sidebar but I think it actually means left?
+$right-sidebar-width-narrow: 150px;
+$right-sidebar-width: 150px;
+$right-sidebar-width-wide: 150px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
