@@ -29,5 +29,13 @@ $right-sidebar-width-narrow: 150px;
 $right-sidebar-width: 150px;
 $right-sidebar-width-wide: 150px;
 
+// the post timestamps on the main page are a bit too big...
+.archive__item .page__date {
+    font-size: smaller;
+    font-style: italic;
+    margin-bottom: .2em;
+    margin-top: .2em;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
