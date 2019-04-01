@@ -6,13 +6,7 @@ layout: archive
 
 <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
 
-Total pagination posts: {{ paginator.total_posts }}<br/>
-Total site posts: {{ site.posts | size }}<br />
-Page: {{ paginator.page }}<br />
-Posts per page: {{ paginator.per_page }}<br />
-
 {% for post in paginator.posts %}
-  eep.
   {% include archive-single.html %}
 {% endfor %}
 
