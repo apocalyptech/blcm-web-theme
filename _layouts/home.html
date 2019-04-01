@@ -8,6 +8,8 @@ layout: archive
 
 Total pagination posts: {{ paginator.total_posts }}<br/>
 Total site posts: {{ site.posts | size }}<br />
+Page: {{ paginator.page }}<br />
+Posts per page: {{ paginator.per_page }}<br />
 
 {% for post in paginator.posts %}
   eep.
