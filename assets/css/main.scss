@@ -62,6 +62,12 @@ $right-sidebar-width-wide: 150px;
 .archive__click {
     text-decoration: underline;
     color: #8cd2d5;
+    margin-top: 0px;
+    font-size: smaller;
+}
+
+.archive__item-excerpt {
+    margin-bottom: 0px;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
