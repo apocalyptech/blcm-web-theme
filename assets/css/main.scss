@@ -57,5 +57,12 @@ $right-sidebar-width-wide: 150px;
     margin-top: .2em;
 }
 
+// Underline the 'click for more info...' text on post summaries, as if
+// it's a link (the post *is* one big link, but this text itself is not.)
+.archive__click {
+    text-decoration: underline;
+    color: #8cd2d5;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
