@@ -33,6 +33,12 @@ h2 {
     color: #ca90fa;
 }
 
+// Add a more visible divider between the sidebar and main area
+.sidebar {
+    border-right: 1px solid #ca90fa;
+    padding-right: .7em;
+}
+
 // Youtube video embed sizing
 .embed-container {
     max-width: 600px;
